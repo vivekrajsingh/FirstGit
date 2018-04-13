@@ -1,6 +1,6 @@
 package com.qaagility.controller;
 
-import com.qaagility.controller.Calculator;
+import com.qaagility.javaee.Calculator;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
  
