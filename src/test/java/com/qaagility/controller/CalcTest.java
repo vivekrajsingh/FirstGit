@@ -14,7 +14,7 @@ public class CalcTest {
       }
 
       public void testFast() {
-        System.out.println("fast-updated");
+        System.out.println("fast-updated-2");
       }
 
 	@Test	
