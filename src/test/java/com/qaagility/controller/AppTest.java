@@ -3,7 +3,7 @@ package com.qaagility.controller;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import com.qaagility.javaee.Calculator;
- 
+import com.qaagility.javaee.Calcmul; 
 
 public class AppTest {
 
