@@ -8,6 +8,8 @@ import com.qaagility.javaee.Calculator;
 public class AppTest {
 
 Calculator myCalc = new Calculator();
+Calcmul multi = new Calcmul();
+
 
       public void testSlow() {
         System.out.println("slow");
@@ -24,6 +26,7 @@ Calculator myCalc = new Calculator();
 	@Test	
       public void testCalc() {
         assertEquals("Result", 9, myCalc.add(3,6));
+	assertEquals("Test mul",18, multi.mul());
       }
 
     }
