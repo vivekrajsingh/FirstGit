@@ -28,7 +28,8 @@ public class CalcTest {
       }
 	
         @Test
-      public void testCaladd = new Calculator() {
-		assertEquals(testCalAdd.add(),8); 	
-     }     
+      public void testCal() {
+        Calculator testadd = new Calculator();
+	assertEquals(testadd.add(),8); 	
+	}     
 }
