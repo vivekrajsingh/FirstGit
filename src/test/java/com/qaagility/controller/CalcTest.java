@@ -19,7 +19,7 @@ public class CalcTest {
 
 	@Test	
       public void testCalc() {
-        assertEquals("Result", 9, 9);
+        assertEquals("Result", testcaladd.add(), 9);
       }
 
 	@Test	
@@ -27,5 +27,8 @@ public class CalcTest {
         assertEquals("Result - Fail", 9, 9);
       }
 	
-	
+        @Test
+      public void testCaladd = new Calculator;
+
+		assertEquals(testCalAdd.add(),8); 	
     }
