@@ -26,6 +26,6 @@ public class CalcTest {
         @Test
       public void testCal() {
         Calculator testadd = new Calculator();
-	assertEquals(testadd.add(),8); 	
+	assertEquals(testadd.add(),9); 	
 	}     
 }
